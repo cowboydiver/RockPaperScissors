@@ -1,0 +1,26 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* use viewport-relative units to cover page fully */
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#buttonsContainer {
+  flex: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.itembtn {
+  width: 100px;
+  height: 25px;
+}
